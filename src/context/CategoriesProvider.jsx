@@ -5,7 +5,6 @@ export const CategoriesProvider = ({ children }) => {
 	const [categories, setCategories] = useState([
 		{ name: 'holidays', color: '#ffae00' },
 		{ name: 'work', color: '#ff0000' },
-		{ name: 'bokita', color: '#1900ff' },
 	])
 	const changeCategories = (newCategories) => {
 		setCategories(newCategories)
