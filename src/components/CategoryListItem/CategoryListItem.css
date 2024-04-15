@@ -1,0 +1,25 @@
+.category-container {
+	padding: 10px;
+	min-width: 200px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.active {
+	background-color: blueviolet;
+}
+.category-item {
+	display: flex;
+	justify-content: space-between;
+}
+.category-item-title {
+	display: block;
+	width: 80%;
+}
+.delete-button {
+	text-align: center;
+	display: block;
+	width: 20%;
+	cursor: pointer;
+}
